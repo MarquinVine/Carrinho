@@ -1,0 +1,65 @@
+
+.bory {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #f9f9f9;
+  }
+  
+  th {
+    background-color: #fa0101;
+    font-weight: bold;
+  }
+  
+
+  input.quantidade {
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+  }
+  
+
+  button.remover-produto {
+    background-color: #fe0000;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+   
+    &:hover {
+      background-color: #ffffff;
+    }
+  }
+  
+
+  .total-final {
+    text-align: right;
+    margin-top: 20px;
+  }
+  
+  .total-final h3 {
+    color: rgb(0, 0, 0);
+  }
+  
+  #total-final {
+    color: #f70000;
+  }
+  li{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+  }
